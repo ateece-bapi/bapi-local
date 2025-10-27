@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# wpTroubleShooting
-=======
-```markdown
 # bapi-local (local WordPress environment)
 
 Quick overview
