@@ -1,3 +1,4 @@
+```markdown
 # bapi-local (local WordPress environment)
 
 Quick overview
@@ -20,8 +21,8 @@ Basic workflow
    rsync -azP user@prod:/path/to/wordpress/wp-content/uploads/ ./wordpress/wp-content/uploads/
 
 5. Run import script to populate local DB and wp-content:
-   chmod +x import-large-site.sh
-   ./import-large-site.sh /path/to/bapi-dump.sql.gz /path/to/wp-content.tar.gz
+   chmod +x scripts/import-large-site.sh
+   ./scripts/import-large-site.sh /path/to/bapi-dump.sql.gz /path/to/wp-content.tar.gz
 
 6. Reset admin password if needed:
    docker-compose run --rm wpcli user list --allow-root
@@ -41,4 +42,3 @@ If you'd like, I can:
 - Produce a sanitized export command you can run on production (paste DB name + DB user) to generate bapi-dump.sql.gz and wp-content.tar.gz,
 - Provide a small wp-config.php merge snippet tailored to your production wp-config (if you paste a sanitized copy).
 ```
->>>>>>> 55d2a17 (Initial commit: add project files)
