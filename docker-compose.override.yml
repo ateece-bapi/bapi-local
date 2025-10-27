@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  wordpress:
+    volumes:
+      - ./php.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
