@@ -21,8 +21,8 @@ Basic workflow
    rsync -azP user@prod:/path/to/wordpress/wp-content/uploads/ ./wordpress/wp-content/uploads/
 
 5. Run import script to populate local DB and wp-content:
-   chmod +x scripts/import-large-site.sh
-   ./scripts/import-large-site.sh /path/to/bapi-dump.sql.gz /path/to/wp-content.tar.gz
+   chmod +x import-large-site.sh
+   ./import-large-site.sh /path/to/bapi-dump.sql.gz /path/to/wp-content.tar.gz
 
 6. Reset admin password if needed:
    docker-compose run --rm wpcli user list --allow-root

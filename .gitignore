@@ -5,7 +5,6 @@
 
 # WordPress local files you shouldn't commit
 wordpress/wp-config.php
-wordpress/wp-config.local.php
 wordpress/.htaccess
 wordpress/wp-content/uploads/
 wordpress/wp-content/upgrade/
