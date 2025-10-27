@@ -36,14 +36,18 @@ Basic workflow
    phpMyAdmin: http://localhost:8081
    MailHog UI: http://localhost:8025
 
-Special notes
-- The import script supports gzipped or plain SQL dumps and will stream the DB import to avoid copying large files into containers.
-- Drop-ins: copy any production drop-in files (object-cache.php, db.php, advanced-cache.php) and mu-plugins into ./wordpress/wp-content/ before starting WordPress if you need parity. If object-cache expects Redis, ensure REDIS_HOST in .env is 'redis' and start the redis service.
-- If you get DB auth errors: confirm .env credentials match your imported DB. If necessary, recreate the db container with correct MYSQL_* env values before importing:
+Notes & troubleshooting
+- Ensure you copy `.env.example` to `.env` before starting the stack. If you previously started the DB without `.env` or with incorrect env vars, reinitialize the DB volume:
   docker-compose down -v
   cp .env.example .env
   # edit .env
   docker-compose up -d
+
+- The import script supports gzipped or plain SQL dumps and will stream the DB import to avoid copying large files into containers.
+
+- Drop-ins: copy any production drop-in files (object-cache.php, db.php, advanced-cache.php) and mu-plugins into ./wordpress/wp-content/ before starting WordPress if you need parity. If object-cache expects Redis, ensure REDIS_HOST in .env is 'redis' and start the redis service.
+
+- If you get DB auth errors: confirm .env credentials match your imported DB.
 
 If you'd like, I can provide a one-line server-side export command tailored to your production DB name and user, or a wp-config.php include snippet to load local overrides safely.
 ```

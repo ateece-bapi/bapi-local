@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Stream a (gzipped or plain) SQL dump into the running DB container and extract wp-content.
-# Usage: ./scripts/import-large-site.sh /path/to/bapi-dump.sql.gz /path/to/wp-content.tar.gz
+# Usage: ./scripts/import-site.sh /path/to/bapi-dump.sql(.gz) /path/to/wp-content.tar.gz
 set -euo pipefail
 
 DB_DUMP=${1:-}
@@ -32,8 +32,21 @@ fi
 
 echo "Importing DB into ${MYSQL_DATABASE} (this may take a while)..."
 
-# Detect gzip by extension or by file magic
-if file --brief --mime-type "$DB_DUMP" | grep -q gzip || [[ "$DB_DUMP" == *.gz ]]; then
+# Detect gzip. Prefer 'file' magic, but fall back to extension check if file is missing.
+IS_GZIP=false
+if command -v file >/dev/null 2>&1; then
+  if file --brief --mime-type "$DB_DUMP" | grep -q gzip; then
+    IS_GZIP=true
+  fi
+else
+  # fallback to extension heuristic
+  case "$DB_DUMP" in
+    *.gz|*.gzip) IS_GZIP=true ;;
+    *) IS_GZIP=false ;;
+  esac
+fi
+
+if [ "$IS_GZIP" = true ]; then
   gunzip -c "$DB_DUMP" | docker exec -i "$DB_CONTAINER_ID" sh -c "mysql -u'${MYSQL_USER}' -p'${MYSQL_PASSWORD}' '${MYSQL_DATABASE}'"
 else
   docker exec -i "$DB_CONTAINER_ID" sh -c "mysql -u'${MYSQL_USER}' -p'${MYSQL_PASSWORD}' '${MYSQL_DATABASE}'" < "$DB_DUMP"
