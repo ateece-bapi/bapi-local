@@ -1,16 +1,21 @@
-# Local environment files
-.env
-.env.local
-.env.*.local
+# Ignore all WordPress core files
+wordpress/*
+# But keep custom content and config
+!wordpress/wp-content/
+!wordpress/wp-config.local.php
+!wordpress/wp-config.php
+!wordpress/.htaccess
 
-# WordPress local files you shouldn't commit
-wordpress/wp-config.php
-wordpress/wp-config.local.php
-wordpress/.htaccess
+# Ignore uploads, cache, and debug logs
 wordpress/wp-content/uploads/
 wordpress/wp-content/upgrade/
 wordpress/wp-content/cache/
 wordpress/wp-content/debug.log
+
+# Local environment files
+.env
+.env.local
+.env.*.local
 
 # Docker and OS cruft
 db_data/
