@@ -12,6 +12,10 @@ wordpress/wp-content/upgrade/
 wordpress/wp-content/cache/
 wordpress/wp-content/debug.log
 
+# Ignore backup and migration plugin folders
+wordpress/wp-content/ai1wm-backups/
+wordpress/wp-content/plugins/all-in-one-wp-migration/
+
 # Local environment files
 .env
 .env.local
