@@ -11,6 +11,14 @@ wordpress/wp-content/uploads/
 wordpress/wp-content/upgrade/
 wordpress/wp-content/cache/
 wordpress/wp-content/debug.log
+# Ignore all core themes except custom ones
+wordpress/wp-content/themes/twentytwenty*/
+wordpress/wp-content/themes/twentytwentythree/
+wordpress/wp-content/themes/twentytwentyfour/
+wordpress/wp-content/themes/twentytwentyfive/
+# Ignore all core plugins except custom ones
+wordpress/wp-content/plugins/akismet/
+wordpress/wp-content/plugins/hello.php
 
 # Ignore backup and migration plugin folders
 wordpress/wp-content/ai1wm-backups/
