@@ -16,9 +16,11 @@ wordpress/wp-content/themes/twentytwenty*/
 wordpress/wp-content/themes/twentytwentythree/
 wordpress/wp-content/themes/twentytwentyfour/
 wordpress/wp-content/themes/twentytwentyfive/
+!wordpress/wp-content/themes/bapi-v4/
 # Ignore all core plugins except custom ones
 wordpress/wp-content/plugins/akismet/
 wordpress/wp-content/plugins/hello.php
+!wordpress/wp-content/plugins/bapi-data-conversion/
 
 # Ignore backup and migration plugin folders
 wordpress/wp-content/ai1wm-backups/
