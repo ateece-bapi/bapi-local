@@ -113,7 +113,7 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '') );
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -132,6 +132,12 @@ if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
 // Allow direct file access for plugin/theme installs
 define('FS_METHOD', 'direct');
 
+define( 'WAM_FORM', 3 );
+define( 'WAM_TYPE', 8 );
+define( 'WAM_KEY', 9 );
+define( 'WAM_RS_FORM', 7 );
+define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG_DISPLAY', false );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
