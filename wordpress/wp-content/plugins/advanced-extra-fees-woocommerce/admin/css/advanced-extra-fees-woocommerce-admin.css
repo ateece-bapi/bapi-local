@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+:root {
+    /* Belo variables for plugin CSS use */
+    --dotstore-primary: #2271b1;
+    --dotstore-primary-light: #f7fffa;
+    --dotstore-remove: #EF0000;
+}
+
+.post-type-wc_conditional_fee #delete-action, .post-type-wc_conditional_fee #visibility {display: none !important;}
+.post-type-wc_conditional_fee .woocommerce_options_panel label, .post-type-wc_conditional_fee .woocommerce_options_panel legend {padding-right: 20px;}
+#poststuff .advanced-extra-fees-woocommerce .inside {padding: 0;margin: 0;}
+#dsaefw-fee-data .woocommerce_options_panel {float: left;padding: 0 12px;width: 80%;}
+#dsaefw-fee-data ul.wc-tabs li.fee_setting_options a:before{content: "\f323";}
+#dsaefw-fee-data ul.wc-tabs li.advance_setting_options a:before {content: "\f111";}
+#dsaefw-fee-data .woocommerce_options_panel label.label-checkbox, #dsaefw-fee-data .woocommerce_options_panel label.label-radio {float: none;margin: auto;width: auto;}
+#dsaefw-fee-data label {position: relative;}
+#dsaefw-fee-data label span.woocommerce-help-tip {top: 20%;position: absolute;right: 5px;margin: 0;}
+.dsaefw-description-wrap {border: 1px solid #ddd;padding: 0 10px;position: relative;border-radius: 5px;}
+.dsaefw-description-wrap > p:before {content: "\f142";position: absolute;top: 5px;right: 10px;display: inline-block;font-family: dashicons;font-size: 33px;font-weight: 600;color: #696969;line-height: normal;}
+.dsaefw-description-wrap > p.dsaefw-hide:before{content: "\f140";}
+
+/* Select2 new design */
+#dsaefw-fee-conditional-rules .select2-container--default .select2-selection--multiple .select2-selection__rendered{padding:0 22px 0px 8px;display:inline-block;}
+#dsaefw-fee-conditional-rules .select2-container--default .select2-selection--multiple .select2-selection__choice{margin:6px 8px 0 0;white-space: initial!important;}
+#dsaefw-fee-conditional-rules .select2-container .select2-search--inline{margin:0;}
+#dsaefw-fee-conditional-rules .select2-container .select2-search--inline .select2-search__field{margin-top:4px;margin-left:0;width:140px!important;min-height:28.5px!important;}
+#dsaefw-fee-conditional-rules .select2-selection--multiple .select2-selection__rendered li:first-child:nth-last-child(1) .select2-search__field{min-width:250px!important;}
+#dsaefw-fee-conditional-rules .select2-container--default .select2-selection--multiple{padding:0;}
+#dsaefw-fee-conditional-rules .select2-container--default.select2-container--focus .select2-selection--multiple{border:1px solid #aaa;}
+#dsaefw-fee-conditional-rules .select2-container--default .select2-selection--multiple .select2-selection__clear{position: absolute;right: 0;top: 0;font-size: 20px;color: var(--dotstore-remove);}
+
+/* Conditional Rules CSS */
+#dsaefw-fee-conditional-rules .woocommerce_options_panel{min-height:fit-content;}
+#dsaefw-fee-conditional-rules .dsaefw-condditional-rules-header {display: flex;padding: 10px;justify-content: flex-start;align-items: center;gap: 10px;}
+#dsaefw-fee-conditional-rules .dsaefw-condditional-rules-content{display: flex;align-items: center;}
+#dsaefw-fee-conditional-rules, #dsaefw-fee-conditional-rules *{-webkit-box-sizing:border-box;box-sizing:border-box;}
+#dsaefw-fee-conditional-rules table.table-outer {width: 100%;border-collapse: collapse;}
+#dsaefw-fee-conditional-rules #dsaefw-rules {margin-top: 0;}
+#dsaefw-fee-conditional-rules #dsaefw-rules .delete-row.disable-delete-icon{opacity:0.5;pointer-events:none;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td{padding:10px;vertical-align:middle;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr {border-top: 1px solid #ddd;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr:not(.dsaefw-no-filter-tr) td:last-child{width:100px;text-align:center;padding-left: 0;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr:not(.dsaefw-no-filter-tr) td:nth-child(3){width:53%;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr:not(.dsaefw-no-filter-tr) td:nth-child(2){width:20%;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr:not(.dsaefw-no-filter-tr) td:first-child{width:27%;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td textarea,#dsaefw-fee-conditional-rules #dsaefw-rules tr td input{width:100%;max-width:100%;min-width:100%;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td select{width: 100%;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td:last-child{text-align: left;padding-left: 10px;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td a.dsaefw-delete-rule{color: var(--dotstore-remove);text-decoration: none;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td a:focus{outline: none;box-shadow: none;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td .dsaefw-condition-note {margin-top: 5px;display: inline-block;}
+#dsaefw-fee-conditional-rules #dsaefw-rules tr td .dsaefw-condition-note a {color: var(--dotstore-primary);margin-left: 5px;}
+#dsaefw-fee-conditional-rules .dsaefw-no-filter-tr {width: 100%;}
+#dsaefw-fee-conditional-rules .dsaefw-no-filter-tr.dsaefw-no-filter-tr-show{display: table-row;}
+#dsaefw-fee-conditional-rules .dsaefw-no-filter-tr.dsaefw-no-filter-tr-hide{display: none;}

@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance mode for WooCommerce\n"
+"POT-Creation-Date: 2024-07-04 12:29+0200\n"
+"PO-Revision-Date: 2024-07-04 12:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: maintenance-mode-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-nf-maintenance-admin.php:39
+msgid "Maintenance mode"
+msgstr "Modo de mantenimiento"
+
+#: admin/class-nf-maintenance-admin.php:69
+msgid "The maintenance mode cannot be activated, if no page is selected!"
+msgstr ""
+"El modo de mantenimiento no se puede activar, si no se selecciona ninguna "
+"página!"
+
+#: admin/class-nf-maintenance-admin.php:76
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: admin/class-nf-maintenance-admin.php:110
+msgid "Activate Maintenance mode"
+msgstr "Activar modo de mantenimiento"
+
+#: admin/class-nf-maintenance-admin.php:121
+msgid "Page"
+msgstr "Página"
+
+#: admin/class-nf-maintenance-admin.php:129
+msgid "Admin Bar note"
+msgstr "Nota de admin bar"
+
+#: admin/class-nf-maintenance-admin.php:135
+msgid "Show message on Admin Bar, when maintenance mode is activated."
+msgstr ""
+"Mostrar mensaje en admin bar, cuando se activa el modo de mantenimiento."
+
+#: admin/class-nf-maintenance-admin.php:141
+msgid "Should all users be blocked?"
+msgstr "¿Se deben bloquear todos los usuarios?"
+
+#: admin/class-nf-maintenance-admin.php:147
+msgid "If checked, then logged-in users AND non-logged-in users are blocked. "
+msgstr ""
+"Si está marcada, se bloquea a los usuarios registrados Y a los no "
+"registrados. "
+
+#: admin/class-nf-maintenance-admin.php:148
+msgid "If unchecked, only users who are not logged in are blocked. "
+msgstr ""
+"Si no está marcada, sólo se bloquea a los usuarios que no han iniciado "
+"sesión. "
+
+#: admin/class-nf-maintenance-admin.php:149
+msgid "In general, users with administrator rights are not blocked. "
+msgstr ""
+"En general, los usuarios con derechos de administrador no están bloqueados. "
+
+#: admin/class-nf-maintenance-admin.php:182
+msgid "If switch is red, maintenance mode for Woocommerce is active."
+msgstr ""
+"Si el interruptor es rojo, el modo de mantenimiento para Woocommerce es "
+"activ."
+
+#: admin/class-nf-maintenance-admin.php:198
+msgid "Select page"
+msgstr "Seleccionar página"
+
+#: admin/class-nf-maintenance-admin.php:226
+msgid ""
+"Select the page to be displayed instead of the shop pages. Feel free, to "
+"create a new page with your own content."
+msgstr ""
+"Seleccione la página que se mostrará en lugar de las páginas de la tienda. "
+"Siéntase libre, para crear una nueva página con su propio contenido."
+
+#: admin/class-nf-maintenance-admin.php:229
+msgid "Polylang Plugin is active."
+msgstr "El plugin Polylang está activo."
+
+#: admin/class-nf-maintenance-admin.php:230
+msgid "The page is displayed in the current language."
+msgstr "La página se muestra en el idioma actual."
+
+#: includes/class-nf-maintenance.php:62
+msgid ""
+"Maintenance mode for WooCommerce requires WooCommerce to be installed and "
+"activated!"
+msgstr ""
+"El modo de mantenimiento para WooCommerce requiere que WooCommerce esté "
+"instalado y activado!"
+
+#: includes/class-nf-maintenance.php:114
+msgid "Maintenance mode ON"
+msgstr "Modo de mantenimiento ON"
+
+#: includes/class-nf-maintenance.php:135 includes/class-nf-maintenance.php:155
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Plugin Name of the plugin/theme
+msgid "Maintenance mode for WooCommerce"
+msgstr "Modo de mantenimiento para WooCommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Put WooCommerce in maintenance mode, without affecting other parts of a "
+"website."
+msgstr ""
+"Ponga WooCommerce en modo de mantenimiento, sin afectar a otras partes de un "
+"sitio web."
+
+#. Author of the plugin/theme
+msgid "netfett"
+msgstr "netfett"
+
+#. Author URI of the plugin/theme
+msgid "https://netfett.de"
+msgstr "https://netfett.de"
+
+#~ msgid ""
+#~ "If checked, then logged-in users AND non-logged-in users are blocked.\n"
+#~ "If unchecked, only users who are not logged in are blocked.\n"
+#~ "In general, users with administrator rights are not blocked."
+#~ msgstr ""
+#~ "Si está marcada, se bloquean los usuarios que han iniciado la sesión y "
+#~ "los que no lo han hecho.\n"
+#~ "Si no está marcada, sólo se bloquean los usuarios que no han iniciado "
+#~ "sesión.\n"
+#~ "En general, los usuarios con derechos de administrador no se bloquean."
+
+#~ msgid "Woocommerce is not installed!"
+#~ msgstr "Woocommerce no está instalado!"
