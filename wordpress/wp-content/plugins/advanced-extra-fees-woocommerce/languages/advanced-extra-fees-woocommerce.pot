@@ -1,0 +1,1025 @@
+# Copyright (C) 2025 theDotstore
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Extra Fees for WooCommerce 1.0.3\n"
+"Report-Msgid-Bugs-To: https://www.multidots.com/contact/\n"
+"POT-Creation-Date: 2025-10-06 11:26:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sagar Jariwala <sagar.jariwala@multidots.com>\n"
+"Language-Team: Sagar Jariwala <sagar.jariwala@multidots.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: India\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:73
+#: admin/class-dsaefw-post-types.php:51
+#: public/class-advanced-extra-fees-woocommerce-public.php:334
+msgid "Fee"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:74
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:407
+msgid "Start Date"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:75
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:417
+msgid "End Date"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:76
+msgid "Status"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:137
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:139
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:163
+msgid "Delete this fee permanently"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:163
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:208
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:101
+msgid "Delete"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:187
+msgid "Delete permanently"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:205
+msgid "Export"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:211
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:225
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:289
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:323
+msgid "Enable"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:214
+msgid "Disable"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:242
+#: admin/class-advanced-extra-fees-woocommerce-export.php:370
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin-fees.php:303
+msgid "Enter fee title here"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:146
+msgid "Please upload CSV file"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:238
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:318
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:370
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:422
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:471
+msgid "No search term provided."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:283
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:349
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:401
+#. translators: %1$s is replaced with "string" which show searched product name
+#. and %2$d is replaced with "number" which show searched product ID
+#. translators: %s is replaced with "string" which show searched category name
+#. and %d is replaced with "number" which show searched category ID
+#. translators: %s is replaced with "string" which show searched tag name and
+#. %d is replaced with "number" which show searched tag ID
+msgid "#%2$d - %1$s"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-admin.php:449
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1119
+#. translators: %s is replaced with "string" which show searched user name and
+#. %d is replaced with "number" which show searched user ID
+msgid "%3$s (#%2$d - %1$s)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-export.php:126
+msgid "Fees has been exported in CSV!"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-export.php:133
+#: admin/class-advanced-extra-fees-woocommerce-export.php:148
+msgid "No Fees found matching the criteria to export."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:79
+msgid "Select countries..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:80
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:533
+msgid "Select states..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:81
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:574
+msgid "Write down each city name in a new line..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:82
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:596
+msgid "Write down each postcode/zip code in a new line..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:83
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:618
+msgid "Select zones..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:84
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:651
+msgid "Search for a product..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:85
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:693
+msgid "Search for a category..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:86
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:725
+msgid "Search for a tag..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:87
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1104
+msgid "Search for users..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:88
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1150
+msgid "Select user roles..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:89
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:774
+msgid "Enter product's quantity..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:90
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:806
+msgid "Enter cart subtotal amount..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:91
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:834
+msgid "Enter after discount cart subtotal amount..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:92
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:867
+msgid "Enter product specific cart subtotal amount..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:93
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:900
+msgid "Enter quantity..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:94
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:927
+msgid "Enter total cart weight..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:95
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:952
+msgid "Select coupons..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:96
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:994
+msgid "Select shipping classs..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:97
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1031
+msgid "Select payment gateways..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:98
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1069
+msgid "Select shipping methods..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:99
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1201
+msgid "Select %s terms..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:102
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:959
+msgid "All Coupons"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:103
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:777
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:838
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:870
+msgid "Note"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:104
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:780
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:841
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:873
+msgid "Click here"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:105
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:778
+msgid ""
+"This rule will only work if you have selected any one Product Specific "
+"option."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:107
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:839
+msgid "This rule will apply when you would apply coupon in front side."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:109
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:871
+msgid "This rule will apply when you would add cart contain product."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:170
+msgid "Conditional Fee Rules"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:210
+msgid "Add Rule"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:214
+msgid "Any Rule match"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:215
+msgid "All Rule match"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:282
+msgid "This fee will apply on all products."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:324
+msgid "Country"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:325
+msgid "State"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:326
+msgid "City"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:327
+msgid "Postcode"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:328
+msgid "Zone"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:343
+msgid "Cart contains product"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:344
+msgid "Cart contains category's product"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:345
+msgid "Cart contains tag's product"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:346
+msgid "Cart contains product's quantity"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:381
+msgid "User"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:382
+msgid "User Role"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:397
+msgid "Cart Subtotal (Before Discount)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:398
+msgid "Cart Subtotal (After Discount)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:399
+msgid "Cart Subtotal (Product Specific)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:400
+msgid "Quantity"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:401
+msgid "Weight"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:402
+msgid "Coupon"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:403
+msgid "Shipping Class"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:419
+msgid "Payment Gateway"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:434
+msgid "Shipping Method"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:460
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:470
+msgid "Equal to ( = )"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:461
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:471
+msgid "Not Equal to ( != )"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:462
+msgid "Less or Equal to ( <= )"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:463
+msgid "Less than ( < )"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:464
+msgid "Greater or Equal to ( >= )"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:465
+msgid "Greater than ( > )"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:498
+msgid "Select country(ies)..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1411
+msgid "Rest of the world"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1441
+#: admin/class-advanced-extra-fees-woocommerce-fee-conditional-rules.php:1469
+msgid "%1$s - %2$s > %3$s"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:113
+msgid "Fee Configuration"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:135
+msgid "Fee configuration"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:141
+msgid "Advance Setting"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:212
+msgid "Configuration"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:214
+msgid "Fee type"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:215
+msgid "You can apply extra fees as a fixed or percentage or both price."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:219
+msgid "Fixed"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:220
+msgid "Percentage"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:221
+msgid "Percentage + Fixed"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:225
+msgid ""
+"By enabling a apply on cart total, fee will apply on cart total instead of "
+"cart subtotal"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:233
+msgid "Apply fee on cart total"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:236
+msgid "Fee amount"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:237
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:311
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:335
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:348
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:361
+msgid "You can add a fixed/percentage fee based on the selection above."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:273
+msgid "[qty]"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:273
+msgid "total number of items in cart"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:274
+msgid "[cost]"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:274
+msgid "cost of items"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:275
+msgid "[weight]"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:275
+msgid "weight of items"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:276
+msgid "[fee min_fee=20]"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:276
+msgid "Minimum fee to apply"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:277
+msgid "[fee max_fee=20]"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:277
+msgid "Maximum fee to apply"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:279
+msgid "Below are some examples"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:281
+msgid "10.00 -> To add flat 10.00 fee charge"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:282
+msgid ""
+"To charge 10.00 per quantity in the cart. It will be 50.00 if the cart has "
+"5 quantity"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:283
+msgid "This means minimum 20 fee charge will be applicable"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:284
+msgid ""
+"This means cart subtotal charge greater than max_fee then maximum 20 charge "
+"will be applicable"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:289
+msgid "This will apply fees as per the quantity of products."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:297
+msgid "Apply Per Additional Quantity"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:300
+msgid "Based on"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:301
+msgid ""
+"Cart based will apply to the total product's quantity in the cart and "
+"Product based will apply to the specific product's quantity in the cart."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:305
+msgid "Cart"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:306
+msgid "Product"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:310
+msgid "Fee Per Quantity"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:323
+msgid "Enable/Disable additional rules per weight on the cart page."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:331
+msgid "Each Weight Rule"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:334
+msgid "Fee Per Weight (%s)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:347
+msgid "Fee per each weight (%s)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:360
+msgid "Fee over weight (%s)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:373
+msgid "Tooltip Description"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:373
+msgid "As a tooltip, provide short information for this fee to your customers."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:382
+msgid "Is Amount Taxable ?"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:382
+msgid "Enable this to calculate fee as taxable."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:390
+msgid "Show as taxable fee"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:396
+msgid "Advanced Setting"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:398
+msgid "Current Local Time"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:398
+msgid "User can take reference to configure setting."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:407
+msgid "After this date fee will display and apply on frontend side"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:417
+msgid "Till this date fee will display and apply on frontend side."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:427
+msgid "Days of week"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:427
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:452
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:456
+msgid ""
+"Select the days on which you want to enable fees on your website. This rule "
+"will match with the current day which is set by WordPress Timezone"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:430
+msgid "Sunday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:431
+msgid "Monday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:432
+msgid "Tuesday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:433
+msgid "Wednesday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:434
+msgid "Thursday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:435
+msgid "Friday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:436
+msgid "Saturday"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:452
+msgid "Start Time"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:456
+msgid "End Time"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:460
+msgid "User's First Order"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:460
+msgid "Apply the fee for the user's first order only."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:471
+msgid "Recurring Fee"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:471
+msgid ""
+"Once selected it will allow fees on recurring payments as well.(This option "
+"only works with subscription products.)"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:482
+msgid "Showcase Fee"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:482
+msgid "Once you enabled this option, It will only show fee on checkout page"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:490
+msgid "On Checkout Only"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-fee-metabox.php:590
+msgid "A post with \"%s\" already exists. Please choose a different title."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:81
+msgid "You must upload a file to import Fees."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:89
+msgid "You must upload a CSV file to import Fees."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:98
+#. translators: Placeholders: %s - import file error while uploading
+msgid "There was a problem uploading the file: %s"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:116
+#: admin/class-advanced-extra-fees-woocommerce-import.php:464
+msgid "Could not find Fees to import from uploaded file."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:469
+#. translators: Placeholder: %s - Fees to import found in uploaded file
+msgid "%s record found in file."
+msgid_plural "%s records found in file."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:476
+#. translators: Placeholder: %s - Fees processed during import from file
+msgid "%s row processed for import."
+msgid_plural "%s rows processed for import."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:480
+#. translators: Placeholder: %s - Fees created in import
+msgid "%s new Fee created."
+msgid_plural "%s new Fees created."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:485
+#. translators: Placeholder: %s - Fees updated during import
+msgid "%s existing Fee updated."
+msgid_plural "%s existing Fees updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:490
+#. translators: Placeholder: %s - skipped Fees to import from file
+msgid "%s row skipped."
+msgid_plural "%s rows skipped."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:496
+msgid "However, no Fees were created or updated with the given options."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:519
+msgid "The file uploaded exceeds the maximum file size allowed."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:521
+msgid "The file was only partially uploaded. Please try again."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:523
+msgid "No file was uploaded."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:525
+msgid "Missing a temporary folder to store the file. Please contact your host."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:527
+msgid ""
+"Failed to write file to disk. Perhaps a permissions error, please contact "
+"your host."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:529
+msgid "A PHP Extension stopped the file upload. Please contact your host."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-import.php:531
+msgid "Unknown error."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:27
+msgid "Advanced Extra Fees"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:54
+msgid "Manage Fees"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:55
+msgid "Global Settings"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:56
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:163
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:170
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:178
+msgid "Import Fees"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:57
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:203
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:210
+msgid "Export Fees"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:96
+msgid "Global Configuration"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:102
+msgid "Remove fees"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:103
+msgid ""
+"When this option is enabled, the fee will be removed once a 100% discount "
+"applies to the cart."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:107
+msgid "Remove fees once a 100% discount applies."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:110
+#: public/class-advanced-extra-fees-woocommerce-public.php:154
+#: public/class-advanced-extra-fees-woocommerce-public.php:400
+msgid "Combine Fees"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:111
+msgid "When this option is enabled, all fees will be combined into a single fee."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:117
+msgid "Combine Fees Taxable"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:118
+msgid ""
+"When applying multiple coupons, apply the first coupon to the full price "
+"and the second coupon to the discounted price and so on."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:126
+msgid "Combine Fees Tooltip"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:127
+msgid "Enable this if you want to add a tooltip to the combined fee label."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:135
+msgid "Combine Fees Tooltip Text"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:140
+msgid "Enter tooltip text..."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:141
+msgid "Add your own tooltip text that will apply to the combined fee label."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:171
+msgid "Import fees from a CSV file."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:175
+msgid ""
+"Acceptable file types: CSV or tab-delimited text files. Maximum file size: "
+"%s"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:175
+msgid "Undetermined"
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:179
+msgid "Import fees to a CSV file."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:206
+#. translators: Placeholders: %1$s - opening <a> link HTML tag, $2$s - closing
+#. </a> link HTML tag
+msgid ""
+"Your CSV file must be formatted with the correct column names and cell "
+"data. Please %1$ssee the documentation%2$s for more information and a "
+"sample CSV file."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:211
+msgid "Export fees to a CSV file."
+msgstr ""
+
+#: admin/class-advanced-extra-fees-woocommerce-settings.php:261
+msgid "Choose a file from your computer"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:50
+msgid "Fees"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:53
+msgid "Add Fee"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:54
+msgid "Add New Fee"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:55
+msgid "Edit"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:56
+msgid "Edit Fee"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:57
+msgid "New Fee"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:58
+msgid "View Fees"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:59
+msgid "View Fee"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:60
+msgid "Search Fees"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:61
+msgid "No Fee found"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:62
+msgid "No Fees found in trash"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:67
+msgid "This is where you can add new Fees."
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:127
+msgid "Fee has been updated."
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:128
+msgid "Custom field updated."
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:129
+msgid "Custom field deleted."
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:130 admin/class-dsaefw-post-types.php:132
+#: admin/class-dsaefw-post-types.php:133
+msgid "Fee has been saved."
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:136
+msgid "Fee draft updated."
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:154
+msgid "%s fee updated."
+msgid_plural "%s fees updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-dsaefw-post-types.php:155
+msgid "%s fee not updated, somebody is editing it."
+msgid_plural "%s fees not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-dsaefw-post-types.php:156
+msgid "%s fee permanently deleted."
+msgid_plural "%s fees permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-dsaefw-post-types.php:157
+msgid "%s fee moved to the Trash."
+msgid_plural "%s fees moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-dsaefw-post-types.php:158
+msgid "%s fee restored from the Trash."
+msgid_plural "%s fees restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-advanced-extra-fees-woocommerce.php:379
+msgid "Settings"
+msgstr ""
+
+#: includes/class-advanced-extra-fees-woocommerce.php:406
+msgid "Docs"
+msgstr ""
+
+#: includes/class-advanced-extra-fees-woocommerce.php:411
+msgid "Support"
+msgstr ""
+
+#: admin/class-dsaefw-post-types.php:52
+msgctxt "Admin menu name"
+msgid "Fees"
+msgstr ""

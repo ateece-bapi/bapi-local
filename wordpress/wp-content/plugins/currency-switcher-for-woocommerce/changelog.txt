@@ -1,0 +1,74 @@
+2021-10-12 - version 1.5.6
+* ADDED - use "wccs_change_default_currency_label" filter to change default currency label on menu.
+* IMRPOVEMENT - Added wp_doing_ajax() condition to work with ajax properly.
+
+2021-06-28 - version 1.5.5
+* ADDED - Added Zone pricing.
+* IMPROVEMENT - Add settings into tabs.
+* FIXED - session_start issue fixed for REST API's.
+*IMPROVEMENT - Sticky switcher slider for mobile and desktop.
+
+2021-04-30 - version 1.5.0
+* FIXED - Conflicting with currency by location.
+* FIXED - removed css referring to body & .container elements.
+* ADDED - Support with tiered Price Table for WooCommerce.
+* ADDED - Support with Woocommerce discount coupons.
+* ADDED - Change currency on billing country.
+* ADDED - Change currency on Language (WPML).
+* ADDED - Option to add location API to change currency by location.
+
+2021-03-29 - version 1.4.3
+* FIXED - Currency By Location conflicting with shortcode.
+* FIXED - Shipping charges calculation wrong when Pay in user selected currency option disabled.
+* FIXED - Favicon removed when sticky switcher is enabled.
+
+2021-02-24 - version 1.4.2
+* FIXED - Compatibility issue with All product Subscription plugin.
+
+2021-02-17 - version 1.4.1
+* FIXED - Currency switch according to user IP with sticky or menu switcher enable.
+* IMPROVEMENT | Remove (Default) from currency menu for default currency.
+
+2020-12-29 - version 1.4
+* FIXED - booking product price change on cart automatically if currency is switch.
+* FIXED - currency converter on menu conflict issue.
+* ADDED - You can switch from setting whether to show currency symbol or currency ISO code.
+* ADDED - You can add prefix before currency symbol.
+* ADDED - Compatible with Wholesale for Woocommerce.
+* FIXED - Sticky switcher arrows fixed.
+* FIXED - Fixed issue for currency getting from location ip of user.
+* ADDED - Introcude new filters to change urls to fetch value from location. "wc_currency_get_location_url", "wc_currency_location_data"
+* ADDED - Compatible with All product Subscription plugin.
+* FIXED - Minicart update fixed.
+* ADDED - use "wccs_change_default_currency_label" filter to change default currency label.
+
+2020-12-02 - version 1.3
+* FIXED - Sale price not converting with Euro.
+* FIXED - Switcher on menu.
+* FIXED - Added missing flags.
+* ADDED - Currency switch according to user IP.
+* ADDED - Hide payment gateway according to currency.
+* ADDED - Compatible with Woocommerce Booking.
+* ADDED - Compatible with Multisite.
+
+
+2020-10-21 - version 1.2.3
+* FIXED - Fixed signup fees on cart page.
+* ADDED - European union flag for euro.
+* IMPROVEMENT - Sort currency array with Name in Asc.
+
+2020-10-09 - version 1.2.2
+* ADDED - Compatible with Woocommerce Subscription.
+* ADDED - Query string supported (?currency=USD).
+
+2020-10-08 - version 1.2.1
+* FIXED - Sale price.
+
+2020-09-30 - version 1.2
+* FIXED - Exchange Rate API.
+
+2020-09-23 - version 1.1
+* FIXED - default currency position.
+
+2020-08-11 - version 1.0
+* Initial release.
